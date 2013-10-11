@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="AAViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen-Shot-2012-12-11-at-15.24.19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vv5-Cm-h5h">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="640" type="user" id="HcH-OY-uhB"/>
+                                    <constraint firstAttribute="height" constant="359" type="user" id="Lbk-ym-8iT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Guy Kawasaki Quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DG-Ny-PDC">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="HOr-qY-FwX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="80"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEd-rR-Xy1">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouq-gh-AQj">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Another Inspiring Quote">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newQuotePressed:" destination="2" eventType="touchUpInside" id="Uy8-Yd-nX3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QEd-rR-Xy1" firstAttribute="leading" secondItem="Vv5-Cm-h5h" secondAttribute="leading" type="default" id="0ds-GT-Dmw"/>
+                            <constraint firstAttribute="trailing" secondItem="5DG-Ny-PDC" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="1eM-42-AHp"/>
+                            <constraint firstItem="Vv5-Cm-h5h" firstAttribute="trailing" secondItem="QEd-rR-Xy1" secondAttribute="trailing" type="default" id="2DZ-Ut-49O"/>
+                            <constraint firstItem="Vv5-Cm-h5h" firstAttribute="top" secondItem="5" secondAttribute="top" constant="154" type="user" id="3K8-4K-2yi"/>
+                            <constraint firstAttribute="trailing" secondItem="ouq-gh-AQj" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="AKJ-XN-CTy"/>
+                            <constraint firstItem="ouq-gh-AQj" firstAttribute="top" secondItem="QEd-rR-Xy1" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="Bw0-9W-AmX"/>
+                            <constraint firstItem="5DG-Ny-PDC" firstAttribute="centerX" secondItem="Vv5-Cm-h5h" secondAttribute="centerX" type="default" id="FjC-Rp-wIv"/>
+                            <constraint firstItem="5DG-Ny-PDC" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KDX-Dy-9kD"/>
+                            <constraint firstItem="QEd-rR-Xy1" firstAttribute="top" secondItem="Vv5-Cm-h5h" secondAttribute="bottom" constant="25" type="user" id="ZNk-SF-3X7"/>
+                            <constraint firstAttribute="bottom" secondItem="ouq-gh-AQj" secondAttribute="bottom" constant="20" symbolic="YES" type="user" id="tLa-6d-nmK"/>
+                            <constraint firstItem="5DG-Ny-PDC" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="default" id="wLY-iE-tE5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mugHeightConstraint" destination="Lbk-ym-8iT" id="2pm-Ae-ydl"/>
+                        <outlet property="mugImageView" destination="Vv5-Cm-h5h" id="vh7-Np-UZE"/>
+                        <outlet property="mugWidthConstraint" destination="HcH-OY-uhB" id="Aif-gY-YfP"/>
+                        <outlet property="quoteTextView" destination="QEd-rR-Xy1" id="bLf-Ic-fMW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen-Shot-2012-12-11-at-15.24.19.jpg" width="640" height="359"/>
+    </resources>
+    <classes>
+        <class className="AAViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="newQuotePressed:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="mugHeightConstraint" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="mugImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="mugWidthConstraint" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="quoteTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
