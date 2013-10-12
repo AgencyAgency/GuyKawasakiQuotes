@@ -28,7 +28,10 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEd-rR-Xy1">
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="MWm-2R-yws"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -46,6 +49,12 @@
                                     <action selector="newQuotePressed:" destination="2" eventType="touchUpInside" id="Uy8-Yd-nX3"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Iolani_Seal_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Jk-ob-GCh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="cdU-GQ-xYz"/>
+                                    <constraint firstAttribute="height" constant="109" id="ztx-9v-HvC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -54,11 +63,12 @@
                             <constraint firstItem="Vv5-Cm-h5h" firstAttribute="trailing" secondItem="QEd-rR-Xy1" secondAttribute="trailing" type="default" id="2DZ-Ut-49O"/>
                             <constraint firstItem="Vv5-Cm-h5h" firstAttribute="top" secondItem="5" secondAttribute="top" constant="154" type="user" id="3K8-4K-2yi"/>
                             <constraint firstAttribute="trailing" secondItem="ouq-gh-AQj" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="AKJ-XN-CTy"/>
-                            <constraint firstItem="ouq-gh-AQj" firstAttribute="top" secondItem="QEd-rR-Xy1" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="Bw0-9W-AmX"/>
+                            <constraint firstAttribute="bottom" secondItem="ouq-gh-AQj" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="E4i-sn-HHy"/>
                             <constraint firstItem="5DG-Ny-PDC" firstAttribute="centerX" secondItem="Vv5-Cm-h5h" secondAttribute="centerX" type="default" id="FjC-Rp-wIv"/>
                             <constraint firstItem="5DG-Ny-PDC" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KDX-Dy-9kD"/>
+                            <constraint firstAttribute="bottom" secondItem="0Jk-ob-GCh" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Uhq-Zg-QKM"/>
                             <constraint firstItem="QEd-rR-Xy1" firstAttribute="top" secondItem="Vv5-Cm-h5h" secondAttribute="bottom" constant="25" type="user" id="ZNk-SF-3X7"/>
-                            <constraint firstAttribute="bottom" secondItem="ouq-gh-AQj" secondAttribute="bottom" constant="20" symbolic="YES" type="user" id="tLa-6d-nmK"/>
+                            <constraint firstItem="0Jk-ob-GCh" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="n3C-D6-dun"/>
                             <constraint firstItem="5DG-Ny-PDC" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="default" id="wLY-iE-tE5"/>
                         </constraints>
                     </view>
@@ -74,6 +84,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Iolani_Seal_logo.jpg" width="640" height="640"/>
         <image name="Screen-Shot-2012-12-11-at-15.24.19.jpg" width="640" height="359"/>
     </resources>
     <classes>

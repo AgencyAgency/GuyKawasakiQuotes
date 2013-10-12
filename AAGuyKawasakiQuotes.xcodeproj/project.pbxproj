@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0F53B21808E1C400B96FAD /* Iolani_Seal_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0F53B11808E1C400B96FAD /* Iolani_Seal_logo.jpg */; };
 		CF7A0DA71808A5FC000DCF4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A0DA61808A5FC000DCF4A /* UIKit.framework */; };
 		CF7A0DA91808A5FC000DCF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A0DA81808A5FC000DCF4A /* Foundation.framework */; };
 		CF7A0DAB1808A5FC000DCF4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A0DAA1808A5FC000DCF4A /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF0F53B11808E1C400B96FAD /* Iolani_Seal_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iolani_Seal_logo.jpg; sourceTree = "<group>"; };
 		CF7A0DA31808A5FC000DCF4A /* AAGuyKawasakiQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAGuyKawasakiQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7A0DA61808A5FC000DCF4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF7A0DA81808A5FC000DCF4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0F53AC1808E04100B96FAD /* Guy */ = {
+			isa = PBXGroup;
+			children = (
+				CF7A0DC91808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg */,
+				CF7A0DCB1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png */,
+			);
+			name = Guy;
+			sourceTree = "<group>";
+		};
+		CF0F53AD1808E04B00B96FAD /* Iolani */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F53B11808E1C400B96FAD /* Iolani_Seal_logo.jpg */,
+			);
+			name = Iolani;
+			sourceTree = "<group>";
+		};
+		CF0F53AE1808E05400B96FAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F53AD1808E04B00B96FAD /* Iolani */,
+				CF0F53AC1808E04100B96FAD /* Guy */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CF7A0D9A1808A5FC000DCF4A = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +128,7 @@
 		CF7A0DAD1808A5FC000DCF4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF7A0DC91808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg */,
-				CF7A0DCB1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png */,
+				CF0F53AE1808E05400B96FAD /* Images */,
 				CF7A0DAE1808A5FC000DCF4A /* AAGuyKawasakiQuotes-Info.plist */,
 				CF7A0DAF1808A5FC000DCF4A /* InfoPlist.strings */,
 				CF7A0DB21808A5FC000DCF4A /* main.m */,
@@ -172,6 +199,7 @@
 				CF7A0DC01808A5FD000DCF4A /* MainStoryboard.storyboard in Resources */,
 				CF7A0DCA1808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg in Resources */,
 				CF7A0DCC1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png in Resources */,
+				CF0F53B21808E1C400B96FAD /* Iolani_Seal_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +337,7 @@
 				CF7A0DC81808A5FD000DCF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
