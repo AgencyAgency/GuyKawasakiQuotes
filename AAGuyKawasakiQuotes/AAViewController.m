@@ -46,7 +46,6 @@
                     @"Poopoo pills fight gut bacterial infection.",
                     @"Patience is the art of concealing your impatience.",
                     @"Steve [Jobs] proves that it's OK to be an asshole... He just has a different OS.",
-<<<<<<< HEAD
                     @"Don’t evangelize crap.",
                     @"Be unique and valuable.",
                     @"Don't worry, be crappy.",
@@ -59,9 +58,7 @@
                     @"They make cool stuff work. Sometimes the cool stuff works. And sometimes the cool stuff doesn't work",
                     @"Evangelism is selling a dream.",
                     @"If you don't toot your own horn, don't complain if there's no music.",
-=======
                     @"While we're living, we need to get over ourselves and accept others if we want to enchant people."
->>>>>>> 267a2251a663f402495f11e38a1ef322cee231c0
                     ];
     }
     return _quotes;
