@@ -28,7 +28,12 @@
     if (!_mugs) {
         _mugs = @[
                   @"Screen-Shot-2012-12-11-at-15.24.19.jpg",
-                  @"Screen Shot 2013-10-11 at 11.47.08 AM.png"
+                  @"Screen Shot 2013-10-11 at 11.47.08 AM.png",
+                  @"GuyKawasaki1.jpg",
+                  @"GuyKawasaki2.jpg",
+                  @"GuyKawasaki3.jpeg",
+                  @"GuyKawasaki4.jpg",
+                  @"GuyKawasaki5.jpg",
                   ];
     }
     return _mugs;
@@ -38,9 +43,21 @@
 {
     if (!_quotes) {
         _quotes = @[
-                    @"Poopoo pills fight gut bacterial infection http://is.gd/oLS601",
+                    @"Poopoo pills fight gut bacterial infection.",
                     @"Patience is the art of concealing your impatience.",
-                    @"Steve [Jobs] proves that it's OK to be an asshole... He just has a different OS."
+                    @"Steve [Jobs] proves that it's OK to be an asshole... He just has a different OS.",
+                    @"Don’t evangelize crap.",
+                    @"Be unique and valuable.",
+                    @"Don't worry, be crappy.",
+                    @"Ask, “So what? … Who gives a shiitake?”",
+                    @"The hardest thing about getting started is getting started.",
+                    @"Try stuff.",
+                    @"Tolerate criticism.",
+                    @"It's a little ridiculous.",
+                    @"I am a bozo.",
+                    @"They make cool stuff work. Sometimes the cool stuff works. And sometimes the cool stuff doesn't work",
+                    @"Evangelism is selling a dream.",
+                    @"If you don't toot your own horn, don't complain if there's no music.",
                     ];
     }
     return _quotes;
