@@ -40,7 +40,8 @@
         _quotes = @[
                     @"Poopoo pills fight gut bacterial infection http://is.gd/oLS601",
                     @"Patience is the art of concealing your impatience.",
-                    @"Steve [Jobs] proves that it's OK to be an asshole... He just has a different OS."
+                    @"Steve [Jobs] proves that it's OK to be an asshole... He just has a different OS.",
+                    @"While we're living, we need to get over ourselves and accept others if we want to enchant people."
                     ];
     }
     return _quotes;
