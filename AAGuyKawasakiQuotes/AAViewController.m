@@ -58,7 +58,10 @@
                     @"They make cool stuff work. Sometimes the cool stuff works. And sometimes the cool stuff doesn't work",
                     @"Evangelism is selling a dream.",
                     @"If you don't toot your own horn, don't complain if there's no music.",
-                    @"While we're living, we need to get over ourselves and accept others if we want to enchant people."
+                    @"While we're living, we need to get over ourselves and accept others if we want to enchant people.",
+                    @"Patience is the art of concealing your impatience.",
+                    @"Pursuing your passions makes you more interesting, and interesting people are enchanting."
+            
                     ];
     }
     return _quotes;
