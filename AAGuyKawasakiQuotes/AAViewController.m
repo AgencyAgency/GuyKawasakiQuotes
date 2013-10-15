@@ -34,6 +34,7 @@
                   @"GuyKawasaki3.jpeg",
                   @"GuyKawasaki4.jpg",
                   @"GuyKawasaki5.jpg",
+                  @"images.jpeg"
                   ];
     }
     return _mugs;
