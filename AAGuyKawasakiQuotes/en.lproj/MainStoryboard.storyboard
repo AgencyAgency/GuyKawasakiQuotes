@@ -87,21 +87,6 @@
         <image name="Iolani_Seal_logo.jpg" width="640" height="640"/>
         <image name="Screen-Shot-2012-12-11-at-15.24.19.jpg" width="640" height="359"/>
     </resources>
-    <classes>
-        <class className="AAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="newQuotePressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="mugHeightConstraint" candidateClass="NSLayoutConstraint"/>
-                <relationship kind="outlet" name="mugImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="mugWidthConstraint" candidateClass="NSLayoutConstraint"/>
-                <relationship kind="outlet" name="quoteTextView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
