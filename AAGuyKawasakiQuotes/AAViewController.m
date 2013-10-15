@@ -61,7 +61,8 @@
                     @"While we're living, we need to get over ourselves and accept others if we want to enchant people.",
                     @"Patience is the art of concealing your impatience.",
                     @"Pursuing your passions makes you more interesting, and interesting people are enchanting.",
-                    @"Lots of things made the first Mac in 1984 a piece of crap, but it was a revolutionary piece of crap."
+                    @"Lots of things made the first Mac in 1984 a piece of crap, but it was a revolutionary piece of crap.",
+                    @"Inertia. Guy’s law of enchantment: “People at rest will remain at rest, and people in motion will keep moving in the same direction unless an outside enchanter acts upon them."
                     ];
     }
     return _quotes;
