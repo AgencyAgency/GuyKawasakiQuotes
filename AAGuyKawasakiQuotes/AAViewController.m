@@ -63,7 +63,7 @@
                     @"Patience is the art of concealing your impatience.",
                     @"Pursuing your passions makes you more interesting, and interesting people are enchanting.",
                     @"Lots of things made the first Mac in 1984 a piece of crap, but it was a revolutionary piece of crap.",
-                    @"Inertia. Guy’s law of enchantment: “People at rest will remain at rest, and people in motion will keep moving in the same direction unless an outside enchanter acts upon them."
+                    @"Inertia. Guy’s law of enchantment: “People at rest will remain at rest, and people in motion will keep moving in the same direction unless an outside enchanter acts upon them.",
                     @"What I lack is talent, I compensate by willing to grind it out. That's the secret of my life."
 
 
