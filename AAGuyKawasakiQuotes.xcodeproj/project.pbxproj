@@ -26,7 +26,7 @@
 		CF7A0DC31808A5FD000DCF4A /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A0DC21808A5FD000DCF4A /* AAViewController.m */; };
 		CF7A0DCA1808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7A0DC91808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg */; };
 		CF7A0DCC1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7A0DCB1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png */; };
-		E5050A9C180D31A400334D84 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5050A9B180D31A400334D84 /* images.jpeg */; };
+		E5273E17180F278700F21A82 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5273E16180F278700F21A82 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,7 @@
 		CF7A0DC21808A5FD000DCF4A /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		CF7A0DC91808A651000DCF4A /* Screen-Shot-2012-12-11-at-15.24.19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen-Shot-2012-12-11-at-15.24.19.jpg"; sourceTree = "<group>"; };
 		CF7A0DCB1808A96E000DCF4A /* Screen Shot 2013-10-11 at 11.47.08 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-10-11 at 11.47.08 AM.png"; sourceTree = "<group>"; };
-		E5050A9B180D31A400334D84 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../images.jpeg; sourceTree = "<group>"; };
+		E5273E16180F278700F21A82 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 		CF7A0DAD1808A5FC000DCF4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5050A9B180D31A400334D84 /* images.jpeg */,
+				E5273E16180F278700F21A82 /* images.jpeg */,
 				CF0F53AE1808E05400B96FAD /* Images */,
 				CF7A0DAE1808A5FC000DCF4A /* AAGuyKawasakiQuotes-Info.plist */,
 				CF7A0DAF1808A5FC000DCF4A /* InfoPlist.strings */,
@@ -223,7 +223,7 @@
 				547E87E6180B8B480079F9E9 /* GuyKawasaki3.jpeg in Resources */,
 				547E87E7180B8B480079F9E9 /* GuyKawasaki4.jpg in Resources */,
 				547E87E8180B8B480079F9E9 /* GuyKawasaki5.jpg in Resources */,
-				E5050A9C180D31A400334D84 /* images.jpeg in Resources */,
+				E5273E17180F278700F21A82 /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
