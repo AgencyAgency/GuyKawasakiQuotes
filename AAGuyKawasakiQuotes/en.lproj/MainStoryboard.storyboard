@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -73,10 +73,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="iolaniLogoImageView" destination="0Jk-ob-GCh" id="7zB-IY-CKS"/>
                         <outlet property="mugHeightConstraint" destination="Lbk-ym-8iT" id="2pm-Ae-ydl"/>
                         <outlet property="mugImageView" destination="Vv5-Cm-h5h" id="vh7-Np-UZE"/>
                         <outlet property="mugWidthConstraint" destination="HcH-OY-uhB" id="Aif-gY-YfP"/>
                         <outlet property="quoteTextView" destination="QEd-rR-Xy1" id="bLf-Ic-fMW"/>
+                        <outlet property="titleLabel" destination="5DG-Ny-PDC" id="4K1-RR-Uta"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -87,20 +89,6 @@
         <image name="Iolani_Seal_logo.jpg" width="640" height="640"/>
         <image name="Screen-Shot-2012-12-11-at-15.24.19.jpg" width="640" height="359"/>
     </resources>
-    <classes>
-        <class className="AAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="mugHeightConstraint" candidateClass="NSLayoutConstraint"/>
-                <relationship kind="outlet" name="mugImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="mugWidthConstraint" candidateClass="NSLayoutConstraint"/>
-                <relationship kind="outlet" name="quoteTextView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

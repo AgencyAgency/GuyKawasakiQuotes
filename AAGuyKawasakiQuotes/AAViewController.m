@@ -15,9 +15,55 @@
 @property (weak, nonatomic) IBOutlet UIImageView *mugImageView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *mugHeightConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *mugWidthConstraint;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *iolaniLogoImageView;
+@property (assign, nonatomic) BOOL isShowingIntro;
 @end
 
 @implementation AAViewController
+
+- (void)awakeFromNib
+{
+    self.isShowingIntro = YES;
+}
+
+- (void)displayIntroPhase2
+{
+    [UIView animateWithDuration:1.0
+                          delay:0.0
+                        options:0
+                     animations:^{
+                         for (UIView *subview in self.view.subviews) {
+                             subview.alpha = 1.0;
+                         }
+                     }
+                     completion:nil];
+}
+
+- (void)displayIntroPhase1
+{
+    [UIView animateWithDuration:2.0
+                          delay:0.0
+                        options:0
+                     animations:^{
+                         self.titleLabel.alpha = 1.0;
+                         self.iolaniLogoImageView.alpha = 1.0;
+                     }
+                     completion:^(BOOL finished) {
+                         [self displayIntroPhase2];
+                     }];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    if (self.isShowingIntro) {
+        for (UIView *subview in self.view.subviews) {
+            subview.alpha = 0.0;
+        }
+        [self displayIntroPhase1];
+    }
+}
 
 - (IBAction)newQuotePressed:(UIButton *)sender {
     [self showNewRandomQuote];
