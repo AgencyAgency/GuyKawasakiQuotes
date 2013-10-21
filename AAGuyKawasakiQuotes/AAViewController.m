@@ -66,7 +66,24 @@
 }
 
 - (IBAction)newQuotePressed:(UIButton *)sender {
-    [self showNewRandomQuote];
+    [UIView animateWithDuration:0.5
+                          delay:0.0
+                        options:0
+                     animations:^{
+                         self.quoteTextView.alpha = 0.0;
+                         self.mugImageView.alpha = 0.0;
+                     }
+                     completion:^(BOOL finished) {
+                         [self showNewRandomQuote];
+                         [UIView animateWithDuration:0.5
+                                               delay:0.0
+                                             options:0
+                                          animations:^{
+                                              self.quoteTextView.alpha = 1.0;
+                                              self.mugImageView.alpha = 1.0;
+                                          }
+                                          completion:nil];
+                     }];
 }
 
 - (NSArray *)mugs
